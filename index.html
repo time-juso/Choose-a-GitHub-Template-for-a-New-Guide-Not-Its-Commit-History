@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choose a repository template or fork according to the history and collaboration your guide needs.">
+  <title>Choose a GitHub Template for a New Guide, Not Its Commit History</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%225%22%20fill%3D%22%23945947%22%2F%3E%3Cpath%20d%3D%22M8%208h16M8%2016h12M8%2024h16%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body><main class="article-shell"><article><h1>Choose a GitHub Template for a New Guide, Not Its Commit History</h1>
+<p>Creating a repository from a GitHub template gives you a starting structure for a new project. It does not bring the template's full sequence of earlier commits into your new repository. If your reason for making a copy is to preserve that history or contribute a correction back to the original project, pause before choosing the template route.</p>
+<p>Imagine Owen preparing a volunteer handbook for a neighborhood repair café. He finds a starter repository with folders for sessions, equipment, and reader questions. The layout suits his group, but he also wants to understand how an instruction changed last month. Reusing the layout and carrying the earlier history are two different requirements, even though both begin with the same visible files.</p>
+<figure><img src="assets/mold-and-dish.jpg" alt="" width="1536" height="1024"></figure>
+<h2>Start with the job your copy must do</h2>
+<p>Owen writes down his purpose before creating anything: “Build a separate handbook for our café using this arrangement.” That points toward a reusable starting structure. His group will supply its own opening times, equipment notes, and contact details rather than maintain a parallel edition of the starter project's instructions.</p>
+<p>Now change the purpose: “Correct a misleading sentence in the existing handbook and send the improvement to its maintainers.” That is a contribution task. A separate new project may be unnecessary, and choosing a template because the button is convenient would obscure the relationship Owen actually needs.</p>
+<p>A third purpose is simply to read how a decision developed. That does not necessarily require creating a repository at all. Owen can inspect the source project's history first and decide whether any copy is needed. Starting with a question avoids creating something that later has to be explained, maintained, or replaced.</p>
+<p>The practical distinction is between reusing an arrangement, collaborating on an existing project, and studying its earlier decisions. These purposes can overlap, but they should not be treated as interchangeable. Write the main purpose in one sentence before selecting the operation.</p>
+<h2>Compare files and history separately</h2>
+<p>GitHub documents a concrete difference: a repository generated from a template starts with a single commit, while a new fork includes the parent's commit history. Matching filenames on the first screen therefore do not establish matching histories. A directory can look familiar without containing the earlier record you expected to inspect.</p>
+<p>For Owen, a file named “equipment” might contain the latest wording in both starting points. That similarity answers a content question about the visible file. It does not answer which earlier revisions are available in the new repository or how that repository relates to the source.</p>
+<p>He makes two separate notes while reviewing a candidate: what useful structure it provides, and where the earlier reasoning can be found. If the new handbook needs a record of a particular decision, he records a clear explanation in his planning notes rather than assuming that copying the present wording also carries its background.</p>
+<p>Avoid using a low commit count as a verdict on the quality of the writing. In this situation, it can reflect the chosen creation method. The relevant question is whether the history available in the new location matches the job you intended it to do.</p>
+<h2>Keep contribution plans attached to the right project</h2>
+<p>A fork is a separate repository that remains connected to an upstream repository. GitHub shows that upstream relationship beneath the fork's name. It gives Owen a visible distinction to check when his task is to work in relation to the existing project, rather than merely reuse its layout.</p>
+<p>That connection does not make every proposed edit appropriate. A correction should still follow the original project's contribution instructions and stay within the intended scope. If Owen wants to add his café's local opening hours, the original maintainers may have no reason to include that change in a general-purpose starter guide.</p>
+<p>Separate those edits before beginning. One note can describe a broadly useful wording correction; another can describe local adaptations. Combining both into a single request would force the reviewer to untangle a shared improvement from information belonging only to Owen's group.</p>
+<p>When gathering possible starting points, a <a href="https://xn--wk0bn08aba238b1zbl8cda910n.com/" rel="noopener noreferrer">링크모음</a> may help with initial discovery, but it does not establish a repository's history, contribution policy, or suitability for reuse. Open the actual project, read its own guidance, and verify the relationship your chosen operation will create before relying on it.</p>
+<h2>Decide what belongs in the new handbook</h2>
+<p>If a template is the right starting point, review what should travel into the new project. GitHub allows creation from the default branch alone or from all branches. Including more is not automatically better: a branch included without a clear purpose becomes another thing the new maintainers must understand.</p>
+<p>GitHub also warns that branches generated from a template have unrelated histories. Do not select all branches on the assumption that it recreates the original project's merge relationships. For a simple handbook, Owen first asks whether his group needs anything beyond the chosen starter files.</p>
+<p>Then he reviews the visible content as an editor. Does a sample contact still name the original organizer? Does the introduction describe an audience different from his own? Is a dated example likely to be mistaken for the café's current schedule? These are practical adaptation questions, not evidence that the starter was defective.</p>
+<p>He keeps a short list of unresolved items before anyone calls the handbook ready. A successful creation operation is only the beginning of that review. A repository can exist with the expected folders while its wording still points readers to the wrong people or describes work the new group has not agreed to perform.</p>
+<h2>Use a small decision and verification routine</h2>
+<p>Owen can make the choice repeatable without turning it into a complicated migration plan. The important checks happen before creation and again before the resulting handbook is shared:</p>
+<ol>
+<li>State whether the task is a new independent guide, a contribution to the existing project, or research into earlier decisions.</li>
+<li>Inspect the source's files, history, and contribution guidance; list what the intended task actually requires.</li>
+<li>Choose the creation method deliberately. If using a template, decide whether the default branch is sufficient instead of including every branch by habit.</li>
+<li>After creation, confirm the owner, repository name, intended visibility, files, and history match the choice that was made.</li>
+<li>Review local adaptations and unresolved sample content before handing the guide to readers or other maintainers.</li>
+</ol>
+<p>For an authorized template-based creation, GitHub's documented entry point is Use this template, then Create a new repository. Review the destination and choices before completing the operation. If permissions or organizational policies prevent the intended setup, stop and resolve that limitation rather than choosing a different destination simply because it is available.</p>
+<p>The handoff note should describe the result plainly: “This is our separate repair-café handbook, started from a reusable structure; earlier source decisions remain in the source project.” That gives the next editor a useful expectation. It is more informative than saying only that the files were copied successfully.</p>
+<h2>Questions that help avoid the wrong starting point</h2>
+<h3>Should I use a template just to read the guide?</h3>
+<p>Usually there is no need to create your own project merely to read its contents. Begin with the source material and identify what you need to understand. Create a new repository when you have a concrete task for it, not as a prerequisite to ordinary reading.</p>
+<h3>Does the same folder layout prove that two copies are equivalent?</h3>
+<p>No. Similar structure can coexist with different histories, ownership, and intended maintenance. Compare the properties that matter to your task. For Owen's new handbook, local accuracy is essential; for a contribution, the relationship to the source and the maintainers' workflow matter as well.</p>
+<h3>What if I already chose the wrong method?</h3>
+<p>Preserve any new work and describe what is missing before taking corrective action. Do not delete the existing repository or force unrelated histories together just to make the choice look reversible. Ask the responsible maintainer to agree on a suitable destination and transfer plan. The useful outcome is an understandable project, not merely a familiar-looking file list.</p></article></main></body>
+</html>
